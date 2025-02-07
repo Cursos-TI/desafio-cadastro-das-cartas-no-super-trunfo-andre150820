@@ -19,4 +19,40 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     return 0;
+
+    char nome;
+    char paises, cidade, estado;
+    double pib;
+    double populacao;
+    float area;
+    int pontos_turisticos;
+
+    printf("Qual o seu nome?\n", nome);
+    scanf("%c", &nome);
+
+
+        /*
+        % d: imprime um numero inteiro no formato decimal;
+        % i: equivalente a % d;
+        % f: imprime um numero flutuante;
+        % c: imprime um unico caractere;
+        % s: imprime caractere string;
+
+        
+        */
 }
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+

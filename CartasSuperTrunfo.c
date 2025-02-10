@@ -29,6 +29,7 @@ int main() {
 
     printf("Qual o seu nome?\n", nome);
     scanf("%c", &nome);
+    printf("%c", nome);
 
 
         /*

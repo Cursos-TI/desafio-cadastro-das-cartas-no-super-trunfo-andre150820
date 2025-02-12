@@ -21,15 +21,19 @@ int main() {
     return 0;
 
     char nome;
-    char paises, cidade, estado;
+    char pais, cidade, estado;
     double pib;
     double populacao;
     float area;
     int pontos_turisticos;
 
     printf("Qual o seu nome?\n", nome);
-    scanf("%c", &nome);
-    printf("%c", nome);
+    scanf("%s", &nome);
+    printf("%s", nome);
+
+    printf("Em que pais voce mora?\n", pais && "Em que cidade voce mora?\n");
+    scanf("s", &pais, &cidade);
+    printf("%s", pais, cidade);
 
 
         /*
